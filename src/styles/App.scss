@@ -1,0 +1,38 @@
+.app{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	user-select: none;
+	background: #ccc;
+
+	h1{
+		color: white;
+	}
+
+	h2{
+		color: yellow;
+	}
+
+	h3{
+		color: gray;
+	}
+
+	span{
+		color: purple;
+		font-size: 12px;
+		position: absolute;
+		bottom: 20px;
+		right: calc(50%-65px)
+	}
+
+	.ohGod{
+		text-align: center;
+		font-size: 32px;
+		color: red;
+	}
+}
